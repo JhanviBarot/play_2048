@@ -1,9 +1,5 @@
 # 🎮 2048 Game in C++ - Terminal Based
 
-## ⚖ Why 2048 is More Challenging to Code Than Tetris
-
-At first glance, *Tetris* might appear more complex due to its graphical nature and falling block physics. However, from a programming and logic design standpoint, *2048 presents a unique set of challenges that can make its implementation even harder, especially in a **terminal environment*.
-
 ### Key Challenges in 2048:
 
 1. *Dynamic Grid Compression & Merging Logic*
