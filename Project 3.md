@@ -407,6 +407,18 @@ Working with this project helps reinforce:
 
 ---
 
+## 🕳️ Loopholes in the code
+
+In the above mentioned code system("clear") is not working because windows.h header is not included and instead of system("clear"), system("cls") needs to used.
+
+---
+
+## 🚀 Future Enhancements
+
+We can implement a more realistic and user friendly game using garphics and UI/UX.
+
+---
+
 ## 📖 License
 
 This project is licensed under the GNU General Public License Version 2.
