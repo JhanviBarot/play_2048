@@ -415,7 +415,8 @@ In the above mentioned code system("clear") is not working because windows.h hea
 
 ## 🚀 Future Enhancements
 
-We can implement a more realistic and user friendly game using garphics and UI/UX.
+-> We can implement a more realistic and user friendly game using garphics and UI/UX.              
+-> Adding a highscore tracker
 
 ---
 
