@@ -1,5 +1,19 @@
 # 🎮 2048 Game in C++ - Terminal Based
 
+### Introduction
+
+2048 is a single-player sliding tile puzzle game created by Gabriele Cirulli in 2014. The goal of the game is to combine numbered tiles on a 4x4 grid to create a tile with the number 2048.
+
+Benefits -> Improves strategic thinking, fun and addictive , boosts memory and attention
+
+---
+
+### Why we selected this game
+
+We wanted to select a easily executable project and learn about how we can implement a realistic game using graphics library such as SFML.
+
+---
+
 ### Key Challenges in 2048:
 
 1. *Dynamic Grid Compression & Merging Logic*
