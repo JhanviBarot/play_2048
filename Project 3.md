@@ -8,7 +8,7 @@ Benefits -> Improves strategic thinking, fun and addictive , boosts memory and a
 
 ---
 
-## Why we selected this game
+## Why we selected this game??
 
 We wanted to select a easily executable project and learn about how we can implement a realistic game using graphics library such as SFML.
 
