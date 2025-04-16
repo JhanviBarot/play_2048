@@ -392,6 +392,10 @@ Undo is blocked after 5 uses per session.
 ![image alt](https://github.com/JhanviBarot/play_2048/blob/240c0972c390ee4be634b86c8688611c027d77be/InitialGameBoard.png)
 ---
 
+### Game Over Screen
+![image alt](https://github.com/JhanviBarot/play_2048/blob/f0f2fe7d66fea59ed63bb8c2071117ce75adc3f3/GameOverScreen.png)
+---
+
 ## 🔍 How to Compile and Run
 
 ### Requirements
