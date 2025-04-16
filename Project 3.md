@@ -1,6 +1,6 @@
 # 🎮 2048 Game in C++ - Terminal Based
 
-### Introduction
+## Introduction
 
 2048 is a single-player sliding tile puzzle game created by Gabriele Cirulli in 2014. The goal of the game is to combine numbered tiles on a 4x4 grid to create a tile with the number 2048.
 
@@ -8,13 +8,13 @@ Benefits -> Improves strategic thinking, fun and addictive , boosts memory and a
 
 ---
 
-### Why we selected this game
+## Why we selected this game
 
 We wanted to select a easily executable project and learn about how we can implement a realistic game using graphics library such as SFML.
 
 ---
 
-### Key Challenges in 2048:
+## Key Challenges in 2048:
 
 1. *Dynamic Grid Compression & Merging Logic*
    - Implementing the logic to shift tiles and then merge equal ones — while avoiding multiple merges in a single move — is more intricate than Tetris block placement.
@@ -95,8 +95,12 @@ play_2048/
 ```
 
 ---
+
 ## Flowchart
 ![image alt](https://github.com/JhanviBarot/play_2048/blob/2c4749360172389ff283f14f79cd7f7287cd9e3a/flowchart.png)
+
+---
+
 ## 💡 Game Features
 
 | Feature             | Description                                                        |
@@ -406,7 +410,29 @@ g++ -o play_2048 play_2024.cpp
 
 ---
 
-## 🧠 Learning Outcomes
+# Implementation using SFML
+
+The core logic of the game (tile movement, merging, random tile spawning, and win/loss detection) is built entirely using standard C++, while SFML is used to create a smooth, visually appealing interface.
+
+### Implementation of features is as follows :-
+
+▪️ 4×4 Tile Grid rendered using SFML RectangleShape objects.
+
+▪️ Responsive Input Handling with arrow keys (Up, Down, Left, Right).
+
+▪️ Dynamic Tile Coloring based on tile values (e.g., 2, 4, 8, ..., 2048).
+
+▪️ Tile Number Rendering using SFML Font and Text.
+
+▪️ Win and Game Over Detection with overlay messages.
+
+▪️ Score Display updated in real time.
+
+▪️ Smooth Window Rendering using SFML’s game loop.
+
+---
+
+# 🧠 Learning Outcomes
 
 Working with this project helps reinforce:
 - 2D Array Manipulation
@@ -417,26 +443,26 @@ Working with this project helps reinforce:
 
 ---
 
-## 🕳️ Loopholes in the code
+# 🕳️ Loopholes in the code
 
 In the above mentioned code system("clear") is not working because windows.h header is not included and instead of system("clear"), system("cls") needs to used.
 
 ---
 
-## 🚀 Future Enhancements
+# 🚀 Future Enhancements
 
 -> We can implement a more realistic and user friendly game using garphics and UI/UX.              
 -> Adding a highscore tracker
 
 ---
 
-## 📖 License
+# 📖 License
 
 This project is licensed under the GNU General Public License Version 2.
 
 ---
 
-## 🧑‍💻 Contribution Guide
+# 🧑‍💻 Contribution Guide
 
 We welcome enhancements! To contribute:
 
@@ -449,11 +475,10 @@ Suggestions:
 - Add persistent high score
 - Save/load functionality
 - Convert to GUI with SFML or SDL
-- Add AI auto-play logic
 
 ---
 
-## ✍️ Acknowledgments
+# ✍️ Acknowledgments
 
 - Developed by **Mandeep Singh**
 - Repository by [Jhanvi Barot](https://github.com/JhanviBarot)
@@ -461,7 +486,7 @@ Suggestions:
 
 ---
 
-## 📌 Summary
+# 📌 Summary
 
 This terminal version of 2048 is a practical, interactive C++ project ideal for:
 - Understanding game development logic
@@ -471,6 +496,5 @@ This terminal version of 2048 is a practical, interactive C++ project ideal for:
 Feel free to build on this and turn it into something even bigger. Happy coding!
 
 ---
-
 
 ...
